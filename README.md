@@ -24,7 +24,18 @@ MongoDB _id of the form they came with. In this way, responses to questions
 that have been changed on the Typeform can still be mapped to the original
 question.
 
-Typeform and MongoDB credentials are passed in via command line like so:
+Typeform and MongoDB info is passed in via command line like so:
+
+<pre>
+<code>
+node formation.js --mongouri            "localhost:27017/formation"
+                  --sysCollection       "formationOps"
+                  --formsCollection     "forms"
+                  --responseCollection  "responses"
+                  --typeformUID         "abc123doremi"
+                  --typeformKey         "quickbrownfox"
+</code>
+</pre>
 
 
 
