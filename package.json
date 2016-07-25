@@ -1,0 +1,17 @@
+{
+  "name": "Formation",
+  "description": "Formation is a thin ETL service that transports data from completed Typeforms
+into a MongoDB database. When run, Formation will check the last time it was
+executed and ask Typeform for any forms that have been completed since then.
+This makes Formation ideal for usage with crontab or another scheduler to get
+regular updates.",
+  "version": "1.0.0",
+  "main": "formation.js",
+  "dependencies": {
+  	"mongodb": "2.2.x",
+  	"request": "2.73.x",
+  	"async":"2.0.0-rc.6",
+  	"lodash": "4.13.x",
+    "yargs": "4.8.x"
+  }
+}
