@@ -38,4 +38,6 @@ node formation.js --mongouri            "localhost:27017/formation"
 </pre>
 
 
+Formation is the formalized version of software I wrote as a sub-contractor for my friend Bjorn. The original repo and commit history can be viewed here: https://github.com/bjorncooley/mongo-analytics.
+
 
